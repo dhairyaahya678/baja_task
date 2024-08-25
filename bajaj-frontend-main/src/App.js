@@ -3,7 +3,7 @@ import axios from "axios";
 import Select from "react-select";
 import "./App.css";
 
-const API_URL = "http://localhost:3000/bfhl";
+const API_URL = "https://bajsj-backend-1.onrender.com/bfhl";
 
 const App = () => {
   const [jsonInput, setJsonInput] = useState("");
